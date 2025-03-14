@@ -7,7 +7,10 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-500: oklch(0.637 0.237 25.331);
+    --color-amber-400: oklch(0.828 0.189 84.429);
     --spacing: 0.25rem;
+    --text-7xl: 4.5rem;
+    --text-7xl--line-height: 1;
     --ease-in: cubic-bezier(0.4, 0, 1, 1);
     --ease-out: cubic-bezier(0, 0, 0.2, 1);
     --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1220,6 +1223,9 @@
   .object-top {
     object-position: top;
   }
+  .p-\[100px\] {
+    padding: 100px;
+  }
   .text-center {
     text-align: center;
   }
@@ -1261,6 +1267,10 @@
   }
   .align-top {
     vertical-align: top;
+  }
+  .text-7xl {
+    font-size: var(--text-7xl);
+    line-height: var(--tw-leading, var(--text-7xl--line-height));
   }
   .leading-none {
     --tw-leading: 1;
@@ -1338,6 +1348,9 @@
   }
   .\[color\:red\]\/50\! {
     color: color-mix(in oklab, red 50%, transparent) !important;
+  }
+  .text-amber-400 {
+    color: var(--color-amber-400);
   }
   .capitalize {
     text-transform: capitalize;

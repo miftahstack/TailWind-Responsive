@@ -5,33 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TailWind</title>
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <!-- Google Fonts
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Galada&family=Hind+Siliguri:wght@300;400;500;600;700&family=Rouge+Script&family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet"> -->
+    <!-- Google Fonts -->
     <!-- All Links -->
     <link rel="stylesheet" href="src/all.min.css">
-    <link href="src/output.css" rel="stylesheet">
+    <link href="../src/input.css" rel="stylesheet">
+    <link href="../src/output.css" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <!-- All Links -->
-   
+
 </head>
 
-
 <body>
-    <section id="navbar">
-        <div class="container flex justify-between items-center">
-            <a href="#">
-                <picture>
-                    <img src="#" alt="#">
-                </picture>
-            </a>
-            <ul class="nav nav-links flex">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
 
-
-           
-
+    <section class="img bg-cover bg-center bg-no-repeat bg-black" style="background-image: url(/images/banner.png);">
+        <div class="overly1 bg-black opacity-50">
+            <section class="navbar">
+                <div class="container flex justify-between items-center text-white  m-auto bg-transparent ">
+                    <a href="#">
+                        <picture>
+                            <img class="logo w-18 m-[10px]" src="images/logo.png" alt="logo.png">
+                        </picture>
+                    </a>
+                    <ul class="nav nav-links flex hover:-500">
+                        <li class=""><a href="#">ড্যাশবোর্ড</a></li>
+                        <li class=""><a href="#">আমাদের সম্পর্কে</a></li>
+                        <li class=""><a href="#">পণ্য</a></li>
+                        <li class=""><a href="#">যোগাযোগ</a></li>
+                        <li class=""><a href="#">অভিযোগ করুণ</a></li>
+                    </ul>
+                    <ul class="flex justify-around">
+                        <li class="pl-[15px] pt-[10px]"><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                        <li class="pl-[15px] pt-[10px]"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+                        <li class="pl-[15px] pt-[10px]"><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+            <section id="banner">
+                <div class="banner_img">
+                    <div class="overly2 p-[150px]">
+                        <div class="container">
+                            <div class="banner-text text-white cursor-pointer">
+                                <h1 style='font-family: "Galada", cursive;' class="text-6xl leading-18 hover:text-red-500">❝একটি নতুন গন্তব্যে
+                                    পৌঁছাতে হলে পুরোনো স্টেশন ছাড়তেই হয়❞</h1>
+                                <p class="mt-7 hover:text-blue-700">ট্রেন জীবন শুধু একটি যাত্রা নয়, এটি অনুভূতির এক
+                                    মিশ্রণ। ট্রেনের জানালা
+                                    দিয়ে বাইরে তাকালে বদলে যাওয়া দৃশ্যপট যেন জীবনেরই প্রতিচ্ছবি। কখনো ট্রেন স্টেশনে
+                                    অপেক্ষা করা ভালোবাসার মানুষটির স্মৃতিকে জাগিয়ে তোলে, কখনো ট্রেনের ছুটে চলা জীবনের
+                                    গতি ও পরিবর্তনের প্রতীক হয়ে ওঠে। ✨</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </section>
 </body>

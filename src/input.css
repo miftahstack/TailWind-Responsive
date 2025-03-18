@@ -1,18 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Galada&family=Hind+Siliguri:wght@300;400;500;600;700&family=Rouge+Script&family=Tiro+Bangla:ital@0;1&display=swap');
 @import "tailwindcss";
-*{
+/* All CSS Reset */
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: 'Poppins', sans-serif;
-    background-color: #fff;
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
 }
-.container{
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
-ul,ol{
-    list-style: none;
+
+/* All CSS Reset */
+@theme {
+    fontfamily:{
+        Galada:["Galada", cursive;]
+    }
 }
+/* Navbar Start */
+.nav-links li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.overly2{
+    padding: 250px 0;
+}
+/* Navbar End */
+
+/* BannnerPart Start */
+
+.font-Galada {
+    font-family: "Galada", cursive;
+}
+/* BannnerPart End */
